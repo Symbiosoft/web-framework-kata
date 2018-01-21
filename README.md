@@ -12,6 +12,8 @@ framework you are going to evaluate, for example:
 
 - `git clone git@github.com:your-github-user/web-framework-kata.git`
 - `cd web-framework-kata`
+- `git checkout master` # Just to make sure we branch from `master`
+- `git branch django`
 - `git checkout django`
 
 Next, at your choice, you can create a separate branch for each kata, tag your
