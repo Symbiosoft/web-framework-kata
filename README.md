@@ -1,21 +1,22 @@
 # web-framework-kata
-Web Framework Kata is way to evaluate different Web Frameworks by hands-on
-experimentation (aka "kicking the tires"). The web app is a classic *TODO list*
-that we improve in successive katas. The katas are framework agnostic, and as
-such should be doable using any existing web framework, and programming language.
+**Web Framework Kata** is a way to evaluate different Web Frameworks by hands-on
+experimentation (aka "kicking the tires"). A classic *TODO list* web app is used
+in all the katas, we will improve that app iteratively. The katas are framework
+agnostic, and therefore they should be doable using any existing web framework,
+or programming language.
 
 ## How to use this repo
 If you want to try the Web Framework Kata, first fork this repo. Then, I suggest
-that you start a new branch from the master branch named against the web
+that you start a new branch from the `master` branch named against the web
 framework you are going to evaluate, for example:
 
-  git clone git@github.com:your-github-user/web-framework-kata.git
-  cd web-framework-kata
-  git checkout django
+- `git clone git@github.com:your-github-user/web-framework-kata.git`
+- `cd web-framework-kata`
+- `git checkout django`
 
 Next, at your choice, you can create a separate branch for each kata, tag your
-branch at before starting a kata to be able to go back later, or whatever you
-decide.
+branch before starting a new kata (to be able to go back later), or whatever you
+see fit with your personal coding workflow.
 
 ## How to contribute
 To contribute:
@@ -37,7 +38,7 @@ web framework you are going to evaluate.
 
 Using the framework tools, create the `todo-list-app`. By the end of this kata,
 you should be able to start a local server, visit the app (blank) web page at
-127.0.0.1:FRAMEWORK_DEFAULT_PORT/
+`127.0.0.1:FRAMEWORK_PORT/`
 
 #### Objectives
 
@@ -45,7 +46,7 @@ Get familiar to the process of creating a new web app with the framework. It may
 or may not imply some configuration to get the routing working. Do only the
 minimum to get the local server up and running, this kata should be done fast.
 If your framework propose to generate test helpers / squeleton, let it do it for
-you.
+you as we will use test driven development (TDD) in the next katas.
 
 ### 2 - Create a data model
 
